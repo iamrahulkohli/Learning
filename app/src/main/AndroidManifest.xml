@@ -6,13 +6,15 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
+        android:name="tuition.rahul.com.learning.VolleyLibrary.AppController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Location.LocationActivity">
-        <!--<activity android:name=".BottomBar.bottombar">-->
+
+        <!-- <activity android:name=".Location.LocationActivity"> -->
+        <activity android:name=".BottomBar.bottombar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,7 +25,8 @@
         <activity android:name=".signIn.GoogleSignin" />
         <activity android:name=".signIn.FacebookSignIn" />
         <!-- <activity android:name="" /> -->
-       <!-- <activity android:name=".Location.LocationActivity"></activity>-->
+        <!-- <activity android:name=".Location.LocationActivity"></activity> -->
+        <activity android:name=".Location.JsonParsing"></activity>
     </application>
 
 </manifest>

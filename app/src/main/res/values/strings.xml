@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Learning</string>
+    <string name="app_name">FUel Up</string>
 
     <string name="desc_firebase_lockup">Firebase logo and name</string>
     <string name="google_title_text">Google Sign In</string>
@@ -25,5 +25,6 @@
     <string name="spinner_fuel_type">Select Fuel Type!!</string>
     <string name="city">City</string>
     <string name="get_price_fragment1">Get Price</string>
+    <string name="set_price">set price</string>
 
 </resources>
